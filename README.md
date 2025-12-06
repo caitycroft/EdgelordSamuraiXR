@@ -4,7 +4,9 @@ Where Fruit Ninja meets real-world physics in a high-fidelity Mixed Reality dojo
 The project utilizes the Meta Presence Platform in modes: one that turns real-world thrown objects into virtual targets using advanced Computer Vision, and a co-located multiplayer mode that gamifies synchronized movement and martial arts flow.
 
 **Key Features**
+
 **1. The "Fruit Pitch" (Real-Time Object Virtualization) An industry-first MR social feature where a physical player interacts with the VR user.** 
+
 **How it works:** A friend throws a real ball at the VR player. Using passthrough API and custom Computer Vision (PCA & Edge Detection), the system tracks the physical ball, predicts its trajectory using Kalman Filtering to eliminate latency, and overlays it with a 3D target (e.g., a glowing fruit or cyber-orb).
 
 **The Goal:** The VR player must slice the "digital skin" off the physical ball in mid-air, combining real-world reflexes with digital gamification.
@@ -16,7 +18,8 @@ The project utilizes the Meta Presence Platform in modes: one that turns real-wo
 **The Goal:** Players face a common virtual enemy or rhythm track, requiring them to attack, dodge, and flow in perfect unison. Scoring is based on "Resonance"—the temporal synchronization of their movements to the beat and to each other.
 
 **Under the Hood**
-Hardware: Meta Quest 3 with custom 3D-printed Katana Hilt mounts.
+
+**Hardware:** Meta Quest 3 with custom 3D-printed Katana Hilt mounts.
 
 **Core Tech:** Unity 6, Meta XR All-in-One SDK (Passthrough & Depth).
 
