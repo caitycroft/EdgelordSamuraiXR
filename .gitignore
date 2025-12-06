@@ -1,0 +1,70 @@
+# Unity generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+MemoryCaptures/
+Logs/
+
+# Asset Store Tools
+**/Assets/AssetStoreTools/
+**/Assets/Plugins/PlasticSCM*
+
+# Private files
+*.private
+*.private.meta
+*.private.[0-9]+
+*.private.[0-9]+.meta
+
+# IDE folders
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+
+# Visual Studio / MonoDevelop generated
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity specific
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.app
+*.unitypackage
+~UnityDirMonSyncFile~*
+
+# Addressables
+**/Assets/AddressableAssetsData/*/*.bin*
+**/Assets/StreamingAssets/aa.meta
+**/Assets/StreamingAssets/*/aa/*
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
